@@ -10,6 +10,14 @@
 - Utilizar a lib test libriry para facilitar a escrita e execução dos testes. Para mais informações acesse o link:  https://testing-library.com/docs/cypress-testing-library/intro/
 - Não versionar dados sensíveis no projeto utilizando variáveis de ambiente com cypress.env.
 - Manter a independência entre os testes, garantindo que cada teste possa ser executado de forma isolada.
+- Configurar reports com mocha
 - Considerar o uso do serviço Cypress Cloud para executar os testes de forma distribuída e em diferentes ambientes.Para mais informações acesse o link:
 - Considerar o uso do serviço Cypress debug. Para mais onfirmações acesse o link: https://docs.cypress.io/guides/guides/debugging#__docusaurus_skipToContent_fallback
 - Criar comandos customizados para automatizar tarefas comuns, como util, API e sequenses actions.
+
+## Como executar o projeto
+```bash
+- nvm use
+- npm i
+- npm run open
+```

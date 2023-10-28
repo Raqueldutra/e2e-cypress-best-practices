@@ -1,4 +1,9 @@
 {
+  "name": "best-pratctices",
+  "scripts": {
+    "open": "npx cypress open",
+    "headless": "npx cypress run"
+  }, 
   "devDependencies": {
     "@cypress/grep": "^4.0.1",
     "@testing-library/cypress": "^10.0.1",
