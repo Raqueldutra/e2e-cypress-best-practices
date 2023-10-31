@@ -7,4 +7,8 @@ module.exports = defineConfig({
       return config;
     },
   },
+  env: {
+    grepFilterSpecs: true,
+    grepOmitFiltered: true,
+  },
 });

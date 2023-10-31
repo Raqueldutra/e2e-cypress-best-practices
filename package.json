@@ -3,7 +3,11 @@
   "scripts": {
     "open": "npx cypress open",
     "headless": "npx cypress run",
+
     "e2e:tests:burn": "npx cypress run --browser chrome --env grep=passes,burn=15"
+
+
+    "cy:run:smoke": "npx cypress run --env grep=@smoke"
 
   },
   "devDependencies": {

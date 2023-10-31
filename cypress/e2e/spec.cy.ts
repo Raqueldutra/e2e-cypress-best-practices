@@ -1,10 +1,7 @@
 /// <reference types="cypress" />
 describe("template spec", () => {
-  beforeEach(() => {
-    //cy.exemplePost();
-  });
 
-  it("passes", () => {
+  it("passes", { tags: "@smoke" }, () => {
     cy.step("open home page");
     cy.visit("https://example.cypress.io/todo");
 
