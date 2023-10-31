@@ -1,11 +1,11 @@
 /// <reference types="cypress" />
-describe('template spec', () => {
+describe("template spec", () => {
   beforeEach(() => {
     //cy.exemplePost();
   });
 
-  it('passes', () => {
-    cy.visit('https://example.cypress.io')
+  it("passes", { tags: "@smoke" }, () => {
+    cy.visit("https://example.cypress.io");
     // cy.getByRole("button",'name');
     // cy.getByPlaceholder("Placeholder");
     // cy.getByText("text");
@@ -13,5 +13,5 @@ describe('template spec', () => {
     // cy.getContains("a","text");
     // cy.getByDataTestId("DataTestId");
     // cy.exemple("text");
-  })
+  });
 });
