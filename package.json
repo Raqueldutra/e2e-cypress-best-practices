@@ -2,8 +2,9 @@
   "name": "best-pratctices",
   "scripts": {
     "open": "npx cypress open",
-    "headless": "npx cypress run"
-  }, 
+    "headless": "npx cypress run",
+    "e2e:tests:burn": "npx cypress run --browser chrome --env grep=passes,burn=15"
+  },
   "devDependencies": {
     "@cypress/grep": "^4.0.1",
     "@testing-library/cypress": "^10.0.1",
