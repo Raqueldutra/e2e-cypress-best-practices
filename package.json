@@ -9,6 +9,7 @@
     "@cypress/grep": "^4.0.1",
     "@testing-library/cypress": "^10.0.1",
     "cypress": "^13.3.3",
+    "cypress-plugin-steps": "^1.1.1",
     "typescript": "^5.2.2"
   }
 }

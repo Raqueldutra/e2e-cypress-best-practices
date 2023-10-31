@@ -1,6 +1,7 @@
 import "./commands/utils";
 import "./commands/actionSequences";
 import "./commands/exempleApi"
+import "cypress-plugin-steps";
 
 
 Cypress.on(
